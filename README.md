@@ -1,12 +1,12 @@
-# SAOBOT – VALORANT COLORBOT EXPERIENCE (EN)
+# SAOBOT – Colorbot Auto Aiming Tool
 
 [![Saobot preview](PHOTO%20SAOBOT/images/LOGIN.png)](https://saobot.shop)
 
-Saobot is a premium all-in-one experience inspired by Valorant. The application combines the colorbot, animated FOV overlay, aimbot, triggerbot, anti-recoil and the Arduino spoofing workflow in a single interface. Goal: showcase how to mix color-based vision, HID automation and live telemetry. Any usage outside an educational context remains the end-user's responsibility.
+Saobot is an all-in-one educational toolkit for learning programming, image analysis, and software automation. The application bundles a colorbot, animated FOV overlay, aimbot, triggerbot, anti-recoil, and Arduino spoofing inside a single interface. The goal is to demonstrate how to combine color-based vision, HID automations, and real-time telemetry. Any use for cheating in games is forbidden and remains solely the responsibility of the end user.
 
-> ⚠️ **Educational usage only**: Saobot illustrates technical concepts (color capture, HID hooking, license handling). We do not endorse any usage that violates Riot Games' ToS. By downloading or running Saobot you accept full responsibility.
+> ⚠️ **Educational use only**: Saobot showcases technical concepts (color capture, HID hooking, license management). We do not endorse any usage that breaks local laws or platform policies. By downloading or running Saobot, you agree to assume all risks and liabilities.
 
-> ✅ **Inclusive setup**: the installer ships Python 3.10, configures dependencies, deploys Saobot.exe, installs the required drivers and checks automatically for an Arduino Leonardo used as the mouse controller.
+> ✅ **Inclusive setup**: the installer ships Python 3.10, installs dependencies, deploys Saobot.exe, the required drivers, and automatically checks for an Arduino Leonardo board for mouse control.
 
 ---
 
@@ -14,48 +14,48 @@ Saobot is a premium all-in-one experience inspired by Valorant. The application 
 
 [![Demo Saobot](https://img.youtube.com/vi/XXXXXXXXXXX/maxresdefault.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXX)
 
-> Replace `XXXXXXXXXXX` with the ID of your YouTube/Vimeo video. The thumbnail remains clickable and opens the presentation (setup, license login, module overview, etc.).
+> Replace `XXXXXXXXXXX` with the ID of your YouTube/Vimeo video. The thumbnail stays clickable and opens the presentation (setup, license login, module overview, etc.).
 
 ---
 
 ## WHY SAOBOT?
 
-- **Premium experience**: animated login, Valorant-inspired theme, module-driven tabs, live telemetry.
-- **Bilingual interface**: main GUI, spoofer window, and logs switch instantly between FR/EN.
+- **Educational experience**: animated login, modern theme, tabbed modules, live telemetry for learning.
+- **Bilingual interface**: the entire panel (main GUI, spoofer, logs) switches live between FR/EN.
 - **Surgical colorbot**: dxcam/d3dshot capture, multi-shape overlay, RGB blinking, real-time transparency.
-- **Composable automations**: aimbot, triggerbot, anti-recoil and offsets combine in one click with head/body/feet presets and fine-grained tuning.
-- **Integrated spoofing**: flash, VID/PID cloning, HID monitoring and Arduino scripts directly inside the interface.
-- **Safety**: the bot refuses to start if the Arduino board is missing, firmware is absent, or licenses are invalid.
-- **Observability**: User/System panels, activity/crash logs, GUI crash reporter, capture FPS tracking.
+- **Composable automations**: aimbot, triggerbot, anti-recoil, and offsets mix in one click with preconfigured profiles (head/body/feet) and fine-grained tweaks for studying algorithms.
+- **Built-in spoofing**: flash, clone VID/PID, monitor HID, and push Arduino scripts straight from the interface to explore hardware security.
+- **Safety**: the bot refuses to start if the Arduino board is missing, the firmware is absent, or the licenses are invalid.
+- **Observability**: User/System panels, activity/crash logs, crash reporter GUI, capture FPS monitoring for debugging.
 
-### What's new – 2025.11
+### Highlights 2025.11
 
-- Full localization of the spoofing tool with automatic sync to the language selector.
-- Backend log/status harmonization through the shared translation system.
+- Complete localization of the spoofing tool and automatic sync with the language selector.
+- Harmonized backend logs/status (spoofer) with the shared translation system.
 - Refreshed Nuitka script (`scripts/build_nuitka.ps1`) to rebuild a standalone executable in one click.
 
 ---
 
-## MODULES SHOWCASE
+## MODULES IN PICTURES
 
-- **Premium portal**: license login, Discord/store shortcuts, info cards.
+- **Premium portal**: license access, Discord/shop support, info modules.
 	[![Login premium](PHOTO%20SAOBOT/images/LOGIN.png)](https://saobot.shop)
 
-- **General**: capture backend selection, FPS ceiling, low-latency preview.
+- **General**: select capture backend, FPS limits, low-latency preview.
 	[![General tab](PHOTO%20SAOBOT/images/general.png)](https://saobot.shop)
 	[![General alt](PHOTO%20SAOBOT/images/geenral2.png)](https://saobot.shop)
 
 - **FOV Overlay**: circle/square/triangle/star/heart shapes, RGB blink, dynamic stroke.
 	[![FOV overlay](PHOTO%20SAOBOT/images/fov.png)](https://saobot.shop)
 
-- **Aimbot**: X/Y speeds, offsets, preset profiles, human-like safe mode.
+- **Aimbot**: X/Y speeds, offsets, preset profiles, human safe-mode.
 	[![Aimbot tab](PHOTO%20SAOBOT/images/aimbot.png)](https://saobot.shop)
 	[![Aimbot presets](PHOTO%20SAOBOT/images/aimbot%202.png)](https://saobot.shop)
 
 - **Triggerbot**: configurable zones, color filters, custom delays.
 	[![Triggerbot](PHOTO%20SAOBOT/images/Triggerbot.png)](https://saobot.shop)
 
-- **Anti-recoil**: per-weapon curves, real-time offsets.
+- **Anti-recoil**: curves per weapon/profile, real-time offsets.
 	[![Anti recoil](PHOTO%20SAOBOT/images/Anti%20recoil.png)](https://saobot.shop)
 
 - **Spoofing**: Arduino link, flash sketch `hardware/microcontroller/microcontroller.ino`, HID cloning.
@@ -66,54 +66,54 @@ Saobot is a premium all-in-one experience inspired by Valorant. The application 
 
 ---
 
-## HOW SAOBOT WORKS
+## HOW DOES SAOBOT WORK?
 
-1. **Installation**: `SaobotSetup.exe` installs Python 3.10, Saobot.exe, dependencies and configures shortcuts.
-2. **Sign-in**: on launch, enter the license received after purchase at [saobot.shop](https://saobot.shop); the API secures the key via HWID + username.
-3. **Hardware check**: the app blocks launch if the Arduino Leonardo is missing or the firmware is not flashed.
-4. **Module setup**: tune FOV, aimbot, triggerbot, anti-recoil, spoofing… every tab stores profiles and shows telemetry.
-5. **Monitoring**: live logs/notifications, user/system panel, overlay preview, capture tests, built-in crash reporter.
-6. **Support**: direct buttons for Discord tickets, website, log sharing.
+1. **Installation**: `SaobotSetup.exe` installs Python 3.10, Saobot.exe, dependencies, and configures shortcuts.
+2. **Login**: on launch, enter the license received after purchasing on [saobot.shop](https://saobot.shop); the API secures the key via HWID + username.
+3. **Hardware check**: the app blocks execution if the Arduino Leonardo is not detected or if the firmware is not flashed.
+4. **Module setup**: tweak FOV, aimbot, triggerbot, anti-recoil, spoofing… Each tab stores your profiles and displays telemetry.
+5. **Monitoring**: real-time logs/notifications, user/system panel, overlay preview, capture tests, built-in crash reporter.
+6. **Support**: direct buttons to Discord (tickets), website, log sharing in one click.
 
 ---
 
-## KEY ADVANTAGES
+## KEY BENEFITS
 
 | Axis | Saobot |
 | --- | --- |
-| **Interface** | Valorant-inspired UI, animations, theming, live preview |
+| **Interface** | Modern UI, animations, themes, live preview for education |
 | **Overlay** | Complex shapes, RGB blink, ultra-fine transparency |
-| **Aimbot/Triggerbot** | Multiple profiles, precise offsets, stealth mode |
-| **Anti-recoil** | Per-weapon curves, graphical editing |
-| **Spoofing** | Built-in Arduino management, flash + clone without external CLI |
-| **Security** | License server validation, HWID + username binding, mandatory Arduino check |
+| **Aimbot/Triggerbot** | Multiple profiles, precise offsets, safe-mode for study |
+| **Anti-recoil** | Curves per weapon, graphical editing |
+| **Spoofing** | Integrated Arduino management, flash + cloning without external CLI |
+| **Security** | Server license checks, HWID + username binding, mandatory Arduino control |
 | **Observability** | Activity/crash logs, system panel, server status |
 
 ---
 
-## REQUIREMENTS
+## PREREQUISITES
 
 - Windows 10/11 64-bit
-- DirectX 11 compatible GPU (dxcam/d3dshot)
-- Python 3.10 (installed automatically by the setup client)
-- Arduino Leonardo (or compatible) to drive HID mouse actions
+- DirectX 11 capable GPU (dxcam/d3dshot)
+- Python 3.10 (installed automatically by the client setup)
+- Arduino Leonardo (or compatible) board to drive the mouse via HID
 - Internet connection for license activation and profile sync
 
-## Build the executable
+## Build the Executable
 
-1. Ensure Python 3.10 plus the dependencies in `requirements.txt` are installed.
+1. Ensure Python 3.10 and the dependencies listed in `requirements.txt` are installed.
 2. Open PowerShell at the project root.
 3. Run `scripts\build_nuitka.ps1` (options available: `-OutputName`, `-DisableLTO`, etc.).
-4. The standalone folder is generated in `build/nuitka/<Name>.dist` with `SaobotNuitka.exe` ready for distribution.
+4. The standalone folder is generated in `build/nuitka/<Name>.dist` with `SaobotNuitka.exe` ready to ship.
 
 ---
 
 ## GET SAOBOT
 
-1. Visit **[saobot.shop](https://saobot.shop)** and choose a plan.
-2. After payment you receive a unique license key by email.
-3. Download `SaobotSetup.exe`, install, launch the app, enter your key.
-4. The license automatically locks to your HWID (1 license = 1 machine). Need to move to a new PC? Open a support ticket.
+1. Visit **[saobot.shop](https://saobot.shop)** and pick a plan.
+2. After payment you receive a unique license via email.
+3. Download `SaobotSetup.exe`, install, launch the app, enter the key.
+4. The license automatically locks to your HWID (1 license = 1 machine). To change PCs, open a support ticket.
 
 Instant support: in-app Discord button or [discord.gg/aQMcEPgUUa](https://discord.gg/aQMcEPgUUa).
 
@@ -121,19 +121,20 @@ Instant support: in-app Discord button or [discord.gg/aQMcEPgUUa](https://discor
 
 ## LOGS & SUPPORT
 
-- `logs/activity/`: capture/module/preview history.
-- `logs/crash/`: full tracebacks, exportable from the app.
-- Facing an issue? Bundle both folders + a screenshot and reach the Discord support team.
+- `logs/activity/`: tracks actions (capture, module, preview).
+- `logs/crash/`: full tracebacks exportable from the app.
+- If something goes wrong: attach both folders + a screenshot, then contact Discord support.
 
 ---
 
 ## LEGAL WARNINGS
 
-- Provided for educational/demo purposes. No warranty for online game usage.
-- Usage may violate Riot Games or other publishers' ToS: risk of ban/sanctions.
-- Resell, reverse engineering, or license sharing strictly forbidden. One license = one HWID.
-- Saobot is not affiliated with Riot Games or Valorant. Any mention of the name is descriptive only.
+- Product supplied for educational/demonstration purposes only. No warranty of usability in online games.
+- Any use for cheating in games is prohibited and fully your responsibility. Usage may violate local laws or platform policies: risk of detection/sanctions.
+- Reselling, reverse engineering, or sharing the license is strictly forbidden. One license = one HWID.
+- Saobot is not affiliated with any game publisher. Any use of a name is purely descriptive.
+- We decline all responsibility for legal or other consequences arising from the use of this tool.
 
 ---
 
-© 2025 – Saobot. All rights reserved. Any distribution outside educational/demo use requires written approval.
+© 2025 – Saobot. All rights reserved. Any distribution outside the educational scope requires written approval.
