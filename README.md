@@ -14,6 +14,8 @@ Saobot is an all-in-one educational toolkit for learning programming, image anal
 
 [![Demo Saobot](https://img.youtube.com/vi/XXXXXXXXXXX/maxresdefault.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXX)
 
+<iframe src="https://drive.google.com/file/d/1CGJU7LvR1S7DH6Wtj-kpz5OkbFMVpLQg/preview" width="640" height="480" allow="autoplay"></iframe>
+
 > Replace `XXXXXXXXXXX` with the ID of your YouTube/Vimeo video. The thumbnail stays clickable and opens the presentation (setup, license login, module overview, etc.).
 
 ---
